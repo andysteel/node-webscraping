@@ -14,7 +14,7 @@ export class Mail {
             service: 'gmail',
             auth: {
                 user: 'andersoncdiastv@gmail.com',
-                pass: '5020106971'
+                pass: '${{ secrets.MAIL_PASS }}'
             }
         });
 
